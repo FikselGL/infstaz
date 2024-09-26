@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl" lang="en">
+<head>
+    <!--Polskie Znaki W Kodzie-->
+    <meta charset="utf-8"/>
+    <!--Tytuł Strony-->
+    <title>INFStaż</title>
+    <!--Opis Strony-->
+    <meta name="description" content="Baza Zawasrtości zgromadzonych przez Fiksela" />
+    <!--Ułatwienie W Explorer-->
+    <meta http-equiv="X-UA-COmpatible" content="IE=edge,chrome=1" />
+    <!--Sposób wyświetlania na urządzeniach mobilnych-->
+    <meta name="viewport" content="width=device-width, initital-scale=1.0">
+    <!--importowanie czciąkę, żeby jej użyć-->
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <!--ikonka strony-->
+    <link rel="shortcut icon" href="img/logozsl.png" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="img/logozsl.png" width="100px"height="100px"></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="podstrony">
+            <ul>
+                <li>
+                    <a href="index.html"class="active">Strona Główna</a> 
+                </li>
+                <li>
+                    <a href="https://zsl.gliwice.pl/" target="_blank">Szkoła</a> 
+                </li>
+                <li>
+                    <a href="https://zsl.gliwice.pl/informacje-o-projekcie-staze-zawodowe-szansa-na-lepsza-przyszlosc/" target="_blank">Projekt Stażu</a>
+                 </li>
+                <li>
+                    <a href="prez.html">Prezentacja</a> 
+                </li>
+                <li>
+                    <a href="opis.html">Opis Strony</a>
+                 </li>
+            </ul>
+        </nav>
+    </header>
+       
+    <div class="container">
+        <div class="Staz">Projekt stażu technicznego informatyka
+            <div class="Staz2">Twój krok w przyszłość</div>
+            <div class="opisS">
+                Rozwiń swoje kompetencje w dynamicznym świecie IT. Staż techniczny informatyka to szansa na 
+                zdobycie<br> doswiadczenia, rozwój umiejętności i wzmocnienie swojej ścieszki kariery.
+            </div>
+            <button id="butt" onclick="location.href='gówno.html';"  class="submit">Dowiedz sie wiecej</button></a>
+            <a href="https://zsl.gliwice.pl/technik-informatyk/" target="_blank"> <button id="butt" class="submit">Sprawdź Kierunek</button></a>
+            <img class="poster" src="undraw_pair_programming_re_or4x.svg" width="35%" height="35%">
+        </div>
+        <div class="linetxt"></div>
+    </div>
+
+
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick =function(){
+            navBar = document.querySelector(".podstrony");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

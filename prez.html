@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pl" lang="en">
+<head>
+    <!--Polskie Znaki W Kodzie-->
+    <meta charset="utf-8"/>
+    <!--Tytuł Strony-->
+    <title>INFStaż</title>
+    <!--Opis Strony-->
+    <meta name="description" content="Baza Zawasrtości zgromadzonych przez Fiksela" />
+    <!--Ułatwienie W Explorer-->
+    <meta http-equiv="X-UA-COmpatible" content="IE=edge,chrome=1" />
+    <!--Sposób wyświetlania na urządzeniach mobilnych-->
+    <meta name="viewport" content="width=device-width, initital-scale=1.0">
+    <!--importowanie czciąkę, żeby jej użyć-->
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <!--ikonka strony-->
+    <link rel="shortcut icon" href="img/czaszkalog.png" type="image/x-icon">
+    <link href="prez.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="img/logozsl.png" width="100px"height="100px"></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="podstrony">
+            <ul>
+                <li>
+                    <a href="index.html">Strona Główna</a> 
+                </li>
+                <li>
+                    <a href="https://zsl.gliwice.pl/">Szkoła</a> 
+                </li>
+                <li>
+                    <a href="https://zsl.gliwice.pl/informacje-o-projekcie-staze-zawodowe-szansa-na-lepsza-przyszlosc/">Projekt Stażu</a>
+                 </li>
+                <li>
+                    <a href="prez.html"class="active">Prezentacja</a> 
+                </li>
+                <li>
+                    <a href="opis.html">Opis Strony</a>
+                 </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="img/1.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/2.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/3.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/4.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/5.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/6.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/7.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/8.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/9.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/10.png" alt="">
+            </div>   
+            <div class="item">
+                <img src="img/11.png" alt="">
+            </div> 
+            <div class="item">
+                <img src="img/12.png" alt="">
+            </div> 
+            <div class="item">
+                <img src="img/13.png" alt="">
+            </div> 
+            <div class="item">
+                <img src="img/14.png" alt="">
+            </div> 
+            <div class="item">
+                <img src="img/15.png" alt="">
+            </div> 
+            <div class="item">
+                <img src="img/16.png" alt="">
+            </div> 
+            <div class="item">
+                <img src="img/17.png" alt="">
+            </div> 
+            <div class="item">
+                <img src="img/18.png" alt="">
+            </div> 
+            <div class="item">
+                <img src="img/19.png" alt="">
+            </div> 
+            <div class="item">
+                <img src="img/20.png" alt="">
+            </div> 
+        </div>
+        <div class="buttons">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+
+
+
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick =function(){
+            navBar = document.querySelector(".podstrony");
+            navBar.classList.toggle("active");
+        }
+        
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

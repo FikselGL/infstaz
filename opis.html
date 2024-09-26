@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl" lang="en">
+<head>
+    <!--Polskie Znaki W Kodzie-->
+    <meta charset="utf-8"/>
+    <!--Tytuł Strony-->
+    <title>INFStaż</title>
+    <!--Opis Strony-->
+    <meta name="description" content="Baza Zawasrtości zgromadzonych przez Fiksela" />
+    <!--Ułatwienie W Explorer-->
+    <meta http-equiv="X-UA-COmpatible" content="IE=edge,chrome=1" />
+    <!--Sposób wyświetlania na urządzeniach mobilnych-->
+    <meta name="viewport" content="width=device-width, initital-scale=1.0">
+    <!--importowanie czciąkę, żeby jej użyć-->
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <!--ikonka strony-->
+    <link rel="shortcut icon" href="img/czaszkalog.png" type="image/x-icon">
+    <link href="stylee.css" rel="stylesheet">
+<body>
+    <header>
+        <div class="logo"><img src="img/logozsl.png" width="100px"height="100px"></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="podstrony">
+            <ul>
+                <li>
+                    <a href="index.html">Strona Główna</a> 
+                </li>
+                <li>
+                    <a href="https://zsl.gliwice.pl/">Szkoła</a> 
+                </li>
+                <li>
+                    <a href="https://zsl.gliwice.pl/informacje-o-projekcie-staze-zawodowe-szansa-na-lepsza-przyszlosc/">Projekt Stażu</a>
+                 </li>
+                <li>
+                    <a href="prez.html">Prezentacja</a> 
+                </li>
+                <li>
+                    <a href="opis.html"class="active">Opis Strony</a>
+                 </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="opiss">Strona stworzona na potrzeby projektu stażu technicznego informatyka.<br>
+        <br>
+        Projekt składa sie z strony internetowej oraz prezentacji wyswietlanej na podstronie<br>
+        Strona internetowa zawiera przekierowanie do innnych stron<br>
+        Przy pisaniu strony użyłem HTML, CSS oraz Java Script<br><br>
+        Strona Główna jest to początkowa strona, na którą każdy użytkownik trafia<br>
+        Nav-Bar czyli inaczej pasek nawigacji dzięki któremu możemy trafiac na inne strony oraz podstrony<br>
+        Pozwala nam go rozwijac przy skalowaniu Java Script<br>
+        
+        Podstrona o nazwie "Prezentacja" wyświela animacyjnie prezentacje na temat projektu<br>
+        Ostatnia podstrona o nazwie "Opis" jak sama nazwa wskazuje opisuje projekt który przygotowałem<br>
+        
+        <br><br><br>
+        Autor: Dawid Bakalarczyk 4A<br>
+        E-mail: fiksel.gl@gmail.com <br>
+    </div>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick =function(){
+            navBar = document.querySelector(".podstrony");
+            navBar.classList.toggle("active");
+        }
+        
+    </script>
+</body>
+</html>
